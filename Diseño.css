@@ -1,0 +1,79 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+}
+header ul li{
+    margin: 10px;
+}
+.lbl-menu label{
+    display: inline-block;
+    padding: 20px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 400ms ease;
+    }
+.lbl-menu label:hover{
+    background: #e04156;
+}
+body{
+    background-image: url(./IMAGENES/INDEX/campos-girasoles_default.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    color: green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h2{
+    color: brown;
+    background-color:antiquewhite
+}
+h4{
+    font-size: 30px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.presentación {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.read-more-btn {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px #4caf50;
+    cursor: pointer;
+} 
+.read-more-btn:hover {
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+.hideText {
+    display: none;
+}
+.showText {
+    display: block;
+}
+
